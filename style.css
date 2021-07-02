@@ -105,7 +105,7 @@ select {
     margin:auto;
     width: 300px;
     font-size: 1.1rem;
-    display: contents;
+    display: grid;
 }
 /*================== RODAPÉ =================================*/
 footer {
