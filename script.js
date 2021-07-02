@@ -1,0 +1,18 @@
+let add = document.getElementById("add")
+let remover = document.getElementById("remover")
+add.addEventListener('click', addOptionSelect)
+remover.addEventListener('click', removeOptionSelect)
+let inputtxt = document.getElementById('input')
+
+function addOptionSelect() {
+  let select = document.getElementById("lista");
+  let option = document.createElement("option");
+  option.text = input.value;
+  select.add(option);
+  inputtxt.value = ''
+}
+
+function removeOptionSelect() {
+  let x = document.getElementById("lista")
+  x.remove(x.selectedIndex);
+}
