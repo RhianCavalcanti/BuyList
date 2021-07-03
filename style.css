@@ -105,7 +105,6 @@ select {
     margin:auto;
     width: 300px;
     font-size: 1.1rem;
-    display: table;
 }
 /*================== RODAPÉ =================================*/
 footer {
@@ -143,5 +142,8 @@ footer {
 
     #input {
         width: 220px;
+    }
+    #inputqtd {
+      width: 220px;
     }
 }
